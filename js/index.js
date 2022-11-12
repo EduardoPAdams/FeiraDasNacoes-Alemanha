@@ -19,3 +19,6 @@ function animeSite(){
 window.addEventListener('scroll', ()=>{
   animeSite()
 })
+
+// FUNÇÃO IMAGENS
+
