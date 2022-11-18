@@ -80,7 +80,7 @@ main{
     width: 50%;
     margin-top: 10%;
     float: left;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
 }
 #moeda{
     width: 45%;
@@ -92,7 +92,7 @@ main{
     width: 50%;
     margin-top: 5%;
     float: right;
-    margin-bottom: 30%;
+    margin-bottom: 0%;
     
 }
 #div-moeda{
@@ -173,6 +173,9 @@ main{
         height: 400px;
         margin-bottom: 4%;
     }
+    #texto4{
+        width: 100%;
+    }
     .bottom{
         font-size: 13px;
     }
@@ -182,7 +185,7 @@ main{
         width: 100%;
     }
     .swiper{
-        height: 400px;
+        height: 650px;
     }
 }
 
