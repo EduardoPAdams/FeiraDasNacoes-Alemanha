@@ -126,15 +126,6 @@ main{
 }
 
 
-
-
-
-
-
-
-
-
-
 /*ADAPTAÇÃO MOBILE*/
 @media (max-width: 600px) {
     main{
@@ -184,6 +175,14 @@ main{
     }
     .bottom{
         font-size: 13px;
+    }
+
+    /* SLIDE IMG */
+    .cardapio{
+        width: 100%;
+    }
+    .swiper{
+        height: 400px;
     }
 }
 
