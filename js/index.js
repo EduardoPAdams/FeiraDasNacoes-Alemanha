@@ -20,9 +20,9 @@ window.addEventListener('scroll', ()=>{
   animeSite()
 })
 
-// FUNÇÃO IMAGENS
+// SLIDE IMAGENS
 
-var swiper = new Swiper(".swiper", {
+let swiper = new Swiper(".swiper", {
   cssMode: true,
   loop: true,
   navigation: {
