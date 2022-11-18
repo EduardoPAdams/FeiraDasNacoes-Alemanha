@@ -111,7 +111,7 @@ main{
     align-content: center;
     justify-content: center;
 }
-#img-slide{
+#slides{
     width: 75%;
 } 
 .swiper{
@@ -186,7 +186,7 @@ main{
     .swiper{
         height: 650px;
     }
-    #img-slide{
+    #slides{
         width: 99%;
     } 
 }
