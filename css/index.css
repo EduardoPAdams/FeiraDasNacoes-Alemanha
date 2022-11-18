@@ -111,10 +111,9 @@ main{
     align-content: center;
     justify-content: center;
 }
-img-slide{
-    box-shadow: 0 1px 2px black;
-    width: 50%;
-}
+#img-slide{
+    width: 75%;
+} 
 .swiper{
     height: 650px;
 }
@@ -181,13 +180,15 @@ img-slide{
     }
 
     /* SLIDE IMG */
-    img-slide{
+    .cardapio{
         width: 100%;
     }
     .swiper{
-        width: 100%;
         height: 650px;
     }
+    #img-slide{
+        width: 99%;
+    } 
 }
 
 
