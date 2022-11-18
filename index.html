@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="website icon" type="png" href="img/bandeira-da-alemanha.jpg">
     <script src="https://kit.fontawesome.com/693deaadf5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <title>Alemanha-Copa do Mundo</title> 
 </head>
 <body>
@@ -70,37 +72,89 @@
                     <div id="moeda" data-anime="bottom">&nbsp</div>
                 </div>
             </div>
+<br>
+            <!-- SLIDER FACIL -->
 
             <div class="cardapio">
-                <div class="slide">
-                    <div>
-                        <img src="img/cardapio1.jpg" alt="capa do cardapio" id="select" class="imgs">
+
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/cardapio1.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="img/cardapio2.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="img/cardapio3.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="img/cardapio4.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="img/cardapio5.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="img/cardapio6.jpg" alt=""></div>
+                      ...
                     </div>
-                    <div>
-                        <img src="img/cardapio2.jpg" alt="pagina 1" class="imgs">
-                    </div>
-                    <div>
-                        <img src="img/cardapio3.jpg" alt="pagina 2" class="imgs">
-                    </div>
-                    <div>
-                        <img src="img/cardapio4.jpg" alt="pagina 3" class="imgs">
-                    </div>
-                    <div>
-                        <img src="img/cardapio5.jpg" alt="pagina 4" class="imgs">
-                    </div>
-                    <div>
-                        <img src="img/cardapio6.jpg" alt="pagina 5" class="imgs">
-                    </div>
-                    <div id="voltar" class="btn">
-                        <i class="fa-sharp fa-solid fa-chevron-right"></i>
-                    </div>
-                    <div id="proximo" class="btn">
-                        <i class="fa-sharp fa-solid fa-chevron-left"></i>
-                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <div class="div-comida">
+                <div id="texto4" data-anime="frase4">
+                    <p>
+                        <h1>Cardapio Alemão</h1> 
+                        O grupo formado por Letícia Lima, Giovanna Tondorf e Maria Duarte 
+                        trouseram para representar nosso país, salsichão com batatas
+                        rústicas e café preto que é muito comum para os alemães.
+                    </p>
+                </div>
+                <div class="comida">
+                    <div class="cardapio">
+                        <div class="slide">
+                            
+                            <div >
+                                <img src="img/cardapio2.jpg" alt="pagina 1" >
+                            </div>
+                            <div >
+                                <img src="img/cardapio3.jpg" alt="pagina 2" >
+                            </div>
+                            <div >
+                                <img src="img/cardapio4.jpg" alt="pagina 3" >
+                            </div>
+                            <div >
+                                <img src="img/cardapio5.jpg" alt="pagina 4" >
+                            </div>
+                            <div >
+                                <img src="img/cardapio6.jpg" alt="pagina 5" >
+                            </div>
+                            <div class="selected" >
+                                <img src="img/cardapio1.jpg" alt="capa do cardapio"  >
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="botao">
+                        <div id="proximo" class="btn">
+                            <i class="fa-sharp fa-solid fa-chevron-right" onclick="nextImage()"></i>
+                        </div>
+                        <div id="voltar" class="btn">
+                            <i class="fa-sharp fa-solid fa-chevron-left" ></i>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
         </div>
-        <br>
     </main>
     <footer class="bottom">
         <div id="contato">

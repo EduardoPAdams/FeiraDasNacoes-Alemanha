@@ -45,6 +45,7 @@ main{
     width: 100%;
 }
 
+
 /*ID*/
 
 #bandeira{
@@ -85,27 +86,58 @@ main{
     width: 45%;
     height: 550px;
     float: right;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
+}
+#texto4{
+    width: 50%;
+    margin-top: 10%;
+    float: right;
+    margin-bottom: 30%;
+    
+}
+#div-moeda{
+    height: 400px;
+    margin-bottom: 20%;
 }
 
-/* CARROSSEL IMAGENS */
+/* SLIDE IMAGEM */
 
 .cardapio{
-    width: 51%;
-    height: 750px;
-    overflow: hidden;
-    border-radius: 15px;
-    transition: all .4s;
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+img{
+    box-shadow: 0 1px 2px black;
+    width: 50%;
+}
+.swiper{
+    height: 650px;
+}
+.swiper-slide{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 450px){
+    .swiper{
+        height: 270px;
+    }
 }
 
-.slide{
-    width: 500%;
-}
-.slide img{
-    width: 100%;
-    height: 100%;
-}
+
+
+
+
+
+
+
+
 
 /*ADAPTAÇÃO MOBILE*/
 @media (max-width: 600px) {
