@@ -17,7 +17,8 @@
 html,body{
     width: 100%;
     /* display: flex; */
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 main{
     margin: 5%;
@@ -35,6 +36,8 @@ main{
     justify-content: center;
     display: flex;
     align-items: center;
+    font-size: 16px;
+    opacity: 0.6;
 }
 .geopolitica{
     width: 100%;
@@ -102,6 +105,13 @@ main{
     height: 400px;
     margin-bottom: 25%;
 }
+#graficos{
+    float: right;
+}
+#texto-fauna{
+    width: 50%;
+    margin-top: 10%;
+}
 
 /* SLIDE IMAGEM */
 
@@ -136,6 +146,9 @@ main{
 @media (max-width: 600px) {
     /* TOPO */
     /* MEIO */
+    body{
+        font-size: 16px;
+    }
     main{
         margin: 2%;
     }
@@ -203,16 +216,10 @@ main{
     opacity: 0;
     transition: .5s;
 }
-[data-anime="left"]{
-    transform: translate3d(-50px, 0px, 0px);
-}
-[data-anime="bottom"]{
-    transform: translate3d(0px, 50px, 0px);
-}
-[data-anime="frase2"]{
+[data-anime="direita"]{
     transform: translate3d(50px, 0px, 0px);
 }
-[data-anime="frase3"]{
+[data-anime="esquerda"]{
     transform: translate3d(-50px, 0px, 0px);
 }
 [data-anime].animacao{
