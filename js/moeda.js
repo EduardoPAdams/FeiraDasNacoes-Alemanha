@@ -31,24 +31,24 @@ am5.ready(function() {
     var colors = chart.get("colors");
     
     var data = [{
-      country: "USA $",
-      visits: 10,
+      country: "USA",
+      visits: 16.6,
       icon: "https://www.amcharts.com/wp-content/uploads/flags/united-states.svg",
       columnSettings: { fill: colors.next() }
     }, {
-        country: "Alemanha €",
-        visits: 10.23,
-        icon: "https://www.amcharts.com/wp-content/uploads/flags/germany.svg",
+        country: "China",
+        visits: 11.2,
+        icon: "https://www.amcharts.com/wp-content/uploads/flags/china.svg",
         columnSettings: { fill: colors.next() }
       }, {
-      country: "China ¥",
-      visits: 72.43,
-      icon: "https://www.amcharts.com/wp-content/uploads/flags/china.svg",
+      country: "Japão",
+      visits: 4.9,
+      icon: "https://www.amcharts.com/wp-content/uploads/flags/japan.svg",
       columnSettings: { fill: colors.next() }
     }, {
-      country: "Brasil R$",
-      visits: 52.18,
-      icon: "https://www.amcharts.com/wp-content/uploads/flags/brazil.svg",
+      country: "Alemanha",
+      visits: 3.4,
+      icon: "https://www.amcharts.com/wp-content/uploads/flags/germany.svg",
       columnSettings: { fill: colors.next() }
     }];
     

@@ -77,11 +77,6 @@ main{
     margin-top: 10%;
     margin-bottom: 20%;
 }
-#chartdiv{
-    width: 50%;
-    height: 550px;
-    margin-bottom: 10%;
-}
 #texto3{
     width: 50%;
     margin-top: 10%;
@@ -91,7 +86,7 @@ main{
 #moeda{
     width: 45%;
     height: 550px;
-    float: right;
+    /* float: right; */
     margin-bottom: 0%;
 }
 #texto4{
@@ -105,13 +100,28 @@ main{
     height: 400px;
     margin-bottom: 25%;
 }
-#graficos{
-    float: right;
-}
+
 #texto-fauna{
     width: 50%;
-    margin-top: 10%;
 }
+#quimica{
+    width: 50%;
+}
+#vestimentas{
+    width: 50%;
+}
+#curiosidades{
+    width: 50%;
+}
+#seta{
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+#texto-religiao{
+    width: 50%;
+}
+
+
 
 /* SLIDE IMAGEM */
 
@@ -152,6 +162,9 @@ main{
     main{
         margin: 2%;
     }
+    #bandeira{
+        height: 50px;
+    }
     #texto1{
         animation-name: frase;
         animation-duration: 2s;
@@ -166,7 +179,7 @@ main{
     #texto2{
         width: 100%;
         margin-top: 0%;
-        margin-bottom: 0%;
+        margin-bottom: 5%;
     }
     #chartdiv{
         width: 100%;
@@ -175,7 +188,7 @@ main{
     }
     #texto3{
         width: 100%;
-        margin-top: 85%;
+        margin-top: 10%;
         float: left;
         margin-bottom: 0%;
     }
@@ -202,10 +215,32 @@ main{
     .cardapio{
         width: 100%;
     }
+    #texto-fauna{
+        width: 100%;
+    }
+    #quimica{
+        width: 100%;
+    }
+    #vestimentas{
+        width: 100%;
+    }
+    #curiosidades{
+        width: 100%;
+    }
+    #seta{
+        opacity: 0;
+        margin-bottom: 0px;
+    }
+    #texto-religiao{
+        width: 100%;
+    }
     
     /* BOTTOM */
     #bottom{
         font-size: 12px;
+    }
+    .bottom{
+        height: 20px;
     }
 }
 
